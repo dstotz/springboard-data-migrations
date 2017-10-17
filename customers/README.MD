@@ -25,15 +25,15 @@ See sample file `customers.csv`
 
 1. Create a CSV file with one line per customer containing the columns listed above plus any additional field values specific to this client
 2. Log into clients Springboard Retail account as an Admin
-3. Navigate to Sales => Customers
-4. Click the Import button
+3. Navigate to `Sales => Customers`
+4. Click the `Import` button
 5. Choose the CSV file created in step 1
-6. Click Upload button to upload file to Springboard Retail
+6. Click `Upload` button to upload file to Springboard Retail
 7. On the mapping screen we will map fields to their exact column name matches so all of the required fields listed above should have auto mapped
-8. Click the Complete Import button to begin the customer import
+8. Click the `Complete Import` button to begin the customer import
 
 
-## Pro Tips
+## Tips
 
 * If you are performing a sales history import, the Customer # field must be specified with the Customer # you will be providing on the ticket from your source system.
 

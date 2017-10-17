@@ -22,14 +22,14 @@ See sample file `vendors.csv`
 
 1. Create a CSV file with one line per vendor containing the columns listed above plus any additional field values specific to this client
 2. Log into clients Springboard Retail account as an Admin
-3. Navigate to Purchasing => Vendors
-4. Click the Import button
+3. Navigate to `Purchasing => Vendors`
+4. Click the `Import` button
 5. Choose the CSV file created in step 1
-6. Click Upload button to upload file to Springboard Retail
+6. Click `Upload` button to upload file to Springboard Retail
 7. On the mapping screen we will map fields to their exact column name matches so all of the required fields listed above should have auto mapped
-8. Click the Complete Import button to begin the vendor import
+8. Click the `Complete Import` button to begin the vendor import
 
 
-## Pro Tips
+## Tips
 
 * For source systems that have additional vendor contact details such as a first name, last name, or website, you can create custom fields to store these values.

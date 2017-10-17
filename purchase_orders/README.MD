@@ -19,17 +19,17 @@ See sample file `po.csv` and `po_with_item_details.csv`
 
 1. Create a CSV file with one line per item on purchase order containing the columns listed above
 2. Log into clients Springboard Retail account as an Admin
-3. Navigate to Purchasing => Orders
-4. Click the Import button
+3. Navigate to `Purchasing => Orders`
+4. Click the `Import` button
 5. Choose the CSV file created in step 1
-6. Click Upload button to upload file to Springboard Retail
+6. Click `Upload` button to upload file to Springboard Retail
 7. On the mapping screen we will map fields to their exact column name matches so all of the required fields listed above should have auto mapped
-8. Change the dropdown at the top to Import PO as `Open`
+8. Change the dropdown at the top to `Import PO` as `Open`
 9. Uncheck box to overwrite existing lines
 10. Click the Complete Import button to begin the purchase order import
 
 
-## Pro Tips
+## Tips
 
 * A single PO # can only go to a single location and be for a single vendor. If the order is allocated in the source system, it is recommended to split it up into multiple Purchase Orders for this import where you append the Location # to the PO # such as "123-1", "123-2", "123-3" to have PO 123 go to 3 different locations.
 

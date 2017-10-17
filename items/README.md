@@ -19,19 +19,19 @@ See sample file `items.csv`
 
 1. Create a CSV file with one line per item containing the columns listed above plus any additional field values specific to this client
 2. Log into clients Springboard Retail account as an Admin
-3. Navigate to Inventory => Items
-4. Click the Import button
+3. Navigate to `Inventory => Items`
+4. Click the `Import` button
 5. Choose the CSV file created in step 1
-6. Click Upload button to upload file to Springboard Retail
+6. Click `Upload` button to upload file to Springboard Retail
 7. On the mapping screen we will map fields to their exact column name matches so all of the required fields listed above should have auto mapped
-8. Click the Complete Import button to begin the item import
+8. Click the `Complete Import` button to begin the item import
 
 
-## Pro Tips
+## Tips
 
 * You may notice there are no attribute fields on our required field list. This is because all attribute fields in Springboard Retail are custom fields so that you are not stuck with a color field if your client does not have a color attribute. So you can create your attribute fields as custom fields and map them accordingly.
 
-* Each item is an indvidual record. If your items in your source system are in a matrix format, you will create them as individual items containing their unique attribute. After the import, either you or the client can request for us to perform a one time free Autogridding in the account where we will grid all items in the account together to recombine them into matrix like resources called grids. During this data migration, you can also request for us to do a one time autogridding in the testing environment after your items have finished importing. Please take special note that after the autogridding is complete, any item updates must happen in the Springboard Retail UI per grid on the Inventory => Grid page. So only request autogridding after the customer has signed off on the content that was imported as there is no way to undo autogridding.
+* Each item is an indvidual record. If your items in your source system are in a matrix format, you will create them as individual items containing their unique attribute. After the import, either you or the client can request for us to perform a one time free Autogridding in the account where we will grid all items in the account together to recombine them into matrix like resources called grids. During this data migration, you can also request for us to do a one time autogridding in the testing environment after your items have finished importing. Please take special note that after the autogridding is complete, any item updates must happen in the Springboard Retail UI per grid on the `Inventory => Grid` page. So only request autogridding after the customer has signed off on the content that was imported as there is no way to undo autogridding.
 
 * If the Original Price is less than the Current Price, it is recommended to leave this field blank as it will show as a markup on POS customer receipts.
 
