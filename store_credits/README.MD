@@ -14,7 +14,7 @@ See sample file `store_credits.csv`
 
 ## Import process
 
-1. Create a CSV file with one line per gift card containing the columns listed above
+1. Create a CSV file with one line per total customer store credit containing the columns listed above
 2. Log into clients Springboard Retail account as an Admin
 3. Navigate to `Sales => Gift Cards`
 4. Click the `Import` button
@@ -26,7 +26,11 @@ See sample file `store_credits.csv`
 
 ## Tips
 
+* Since store credits and gift cards are one resource in Springboard Retail, make sure that there are no conflicting numbers between the two lists.
+
 * During a typical data migration, we will create a custom field on the Customer record called Store Credit # that will store the customers store credit gift card number if they have a store credit balance. This custom field is then enabled to be visible on the customer list which provides the clients sales reps with the easy ability to view if a customer has a store credit or not and then gives them access to the number to look it up.
+
+* Some systems allow a single customer to have multiple store credits. You will want to combine those credits and import just the total balance.
 
 * Gift card numbers can be alphanumeric but can not contain spaces or special characters. Spaces will be automatically removed during import, for example "123 456" would import as "123456"
 
